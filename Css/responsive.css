@@ -1,0 +1,61 @@
+@media screen and (max-width:576px){
+    body{
+        background-color: rgba(255, 0, 0, 0.234);
+    }
+    .nav-menu ul{
+        display: none;
+    }
+    .container{
+        max-width: 90%;
+        border: 2px solid red;
+    }
+    .popular-tour-inner{
+        flex-direction: column;
+    }
+    .destination-row1,
+    .destination-row2,
+    .destination-row3,
+    .choose-inner,
+    .choose-child{
+        grid-template-columns: 1fr;
+    }
+    .newsletter-area{
+        grid-template-columns: 2fr;
+    }
+    .img-contain{
+        margin-top: 254px;
+        margin-left: 100px;
+    }
+    .popular-tour-img img{
+        max-width: 100%;
+    }
+
+    .nav-logo h1 {
+        font-size: 30px;
+    }
+    .nav-logo img{
+        height: 40px;
+    }
+    .banner-inner h1{
+        font-size: 30px;
+    }
+    .banner-inner p{
+        font-size: 15px;
+    }
+    .banner-input .input-sec{
+        flex-direction: column;
+        height: 230px;
+    }
+    .banner-input input{
+        padding-left: 15px;
+        width: 133px;
+    }
+    .banner-section{
+        height: 170vh;
+    }
+    .footer-inner{
+        padding:  30px 0;
+    }
+
+    
+}
