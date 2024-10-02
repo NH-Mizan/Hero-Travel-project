@@ -1,13 +1,13 @@
 @media screen and (max-width:576px){
-    body{
+    /* body{
         background-color: rgba(255, 0, 0, 0.234);
-    }
+    } */
     .nav-menu ul{
         display: none;
     }
     .container{
         max-width: 90%;
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
     .popular-tour-inner{
         flex-direction: column;
